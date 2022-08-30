@@ -7,6 +7,7 @@
     <title>Add Student</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    {{-- @vite('resources/css/app.css') --}}
 </head>
 <body>
 
@@ -14,7 +15,7 @@
         <div class="row">
 
             <div class="col-md-12">
-                <h2>Add Student</h2>
+                <h2 >Add Student</h2>
 
               @if(Session::has('success'))
                     <div class="alert alert-success" role="alert">{{Session::get('success')}}</div>
